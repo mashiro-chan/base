@@ -21,6 +21,11 @@
     "koishi",
     "plugin"
   ],
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.15.0",
+    "typescript": "^5.2.2"
+  },
   "peerDependencies": {
     "koishi": "4.15.0"
   },
