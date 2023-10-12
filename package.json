@@ -13,7 +13,9 @@
     "type": "git",
     "url": "https://github.com/mashiro-chan/base.git"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "atsc -b"
+  },
   "keywords": [
     "chatbot",
     "koishi",
@@ -21,5 +23,13 @@
   ],
   "peerDependencies": {
     "koishi": "4.15.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "/拍了拍 @你"
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
